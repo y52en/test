@@ -1,1 +1,374 @@
-(async()=>{const m=window.vue,e={m_GameObject:null,m_Enabled:1,m_Script:"ObjectPointer(file_id=0, path_id=-5647132677049455812)",m_Name:"BattleAIData_90286",m_ID:90286,m_PatternChangeDatas:[],m_PatternDatas:[{m_CommandDatas:[{m_Conditions:[{m_Type:3,m_Args:[3,2]},{m_Type:68,m_Args:[1,0,2,1]}],m_ExecDatas:[{m_CommandIndex:0,m_IsCommandTargetSelectionInOrder:0,m_Ratio:50,m_AIFlags:[{m_ID:1,m_IsFlag:1}],m_SingleConditions:[]},{m_CommandIndex:1,m_IsCommandTargetSelectionInOrder:0,m_Ratio:50,m_AIFlags:[{m_ID:1,m_IsFlag:1}],m_SingleConditions:[]}],m_ExecNum:0},{m_Conditions:[{m_Type:3,m_Args:[3,2]},{m_Type:68,m_Args:[1,0,3,1]}],m_ExecDatas:[{m_CommandIndex:2,m_IsCommandTargetSelectionInOrder:0,m_Ratio:50,m_AIFlags:[{m_ID:1,m_IsFlag:1}],m_SingleConditions:[]},{m_CommandIndex:3,m_IsCommandTargetSelectionInOrder:0,m_Ratio:50,m_AIFlags:[{m_ID:1,m_IsFlag:1}],m_SingleConditions:[]}],m_ExecNum:0},{m_Conditions:[{m_Type:3,m_Args:[3,2]},{m_Type:68,m_Args:[1,0]}],m_ExecDatas:[{m_CommandIndex:0,m_IsCommandTargetSelectionInOrder:0,m_Ratio:25,m_AIFlags:[{m_ID:1,m_IsFlag:1},{m_ID:2,m_IsFlag:1}],m_SingleConditions:[]},{m_CommandIndex:1,m_IsCommandTargetSelectionInOrder:0,m_Ratio:25,m_AIFlags:[{m_ID:1,m_IsFlag:1},{m_ID:2,m_IsFlag:1}],m_SingleConditions:[]},{m_CommandIndex:2,m_IsCommandTargetSelectionInOrder:0,m_Ratio:25,m_AIFlags:[{m_ID:1,m_IsFlag:1},{m_ID:3,m_IsFlag:1}],m_SingleConditions:[]},{m_CommandIndex:3,m_IsCommandTargetSelectionInOrder:0,m_Ratio:25,m_AIFlags:[{m_ID:1,m_IsFlag:1},{m_ID:3,m_IsFlag:1}],m_SingleConditions:[]}],m_ExecNum:0},{m_Conditions:[{m_Type:2,m_Args:[6,0,2,0,0,0]}],m_ExecDatas:[{m_CommandIndex:4,m_IsCommandTargetSelectionInOrder:0,m_Ratio:100,m_AIFlags:[],m_SingleConditions:[]}],m_ExecNum:0},{m_Conditions:[{m_Type:49,m_Args:[4,1,0]}],m_ExecDatas:[{m_CommandIndex:5,m_IsCommandTargetSelectionInOrder:0,m_Ratio:100,m_AIFlags:[],m_SingleConditions:[]}],m_ExecNum:0},{m_Conditions:[{m_Type:44,m_Args:[6]}],m_ExecDatas:[{m_CommandIndex:6,m_IsCommandTargetSelectionInOrder:0,m_Ratio:100,m_AIFlags:[],m_SingleConditions:[]}],m_ExecNum:0},{m_Conditions:[{m_Type:0,m_Args:[0,100]}],m_ExecDatas:[{m_CommandIndex:7,m_IsCommandTargetSelectionInOrder:0,m_Ratio:100,m_AIFlags:[],m_SingleConditions:[]}],m_ExecNum:0}]}],m_ChargeCommandDatas:[{m_Conditions:[{m_Type:68,m_Args:[2,1]}],m_ExecDatas:[{m_CommandIndex:0,m_IsCommandTargetSelectionInOrder:0,m_Ratio:100,m_AIFlags:[{m_ID:1,m_IsFlag:0},{m_ID:2,m_IsFlag:0},{m_ID:3,m_IsFlag:1}],m_SingleConditions:[]}],m_ExecNum:0},{m_Conditions:[{m_Type:68,m_Args:[3,1]}],m_ExecDatas:[{m_CommandIndex:1,m_IsCommandTargetSelectionInOrder:0,m_Ratio:100,m_AIFlags:[{m_ID:1,m_IsFlag:0},{m_ID:2,m_IsFlag:1},{m_ID:3,m_IsFlag:0}],m_SingleConditions:[{m_Type:3,m_Args:[1],isFalse:0},{m_Type:3,m_Args:[1],isFalse:0},{m_Type:3,m_Args:[1],isFalse:0},{m_Type:3,m_Args:[1],isFalse:0}]}],m_ExecNum:0}],m_SingleTargetPriorityWhenHateSame:0};m.$db.BattleAIDataList[e.m_ID]=e,m.$db.QuestEnemyList[99216004].m_AIID=e.m_ID,m.$db.QuestEnemyList[99216004].m_SkillIDs.forEach((e,_)=>{m.$db.SkillList_EN[e].m_SkillName="スキル"+(_+1)}),m.$db.QuestEnemyList[99216004].m_CharageSkillIDs.forEach((e,_)=>{m.$db.SkillList_EN[e].m_SkillName="チャージ"+(_+1)});const _=m=>document.querySelector(m),n=m=>document.querySelectorAll(m);await m.$router.push("/enemy/99216004?level=0&qid=204033"),n(".d-flex.justify-center.flex-column.small>:not(.primary--text)").forEach(m=>{m.outerHTML=""}),n(".row.primary--text.text-center.hidden-xl-only.small.no-gutters>.col:first-child").forEach(m=>{m.textContent="硬直: %"}),_(".display.px-4.primary--text").textContent="極のデータ???",n("img.d-inline")[0].parentElement.style.visibility="hidden",a=n(".value");for(let m=0;m<=6;m++)a[m].textContent="";for(let m=8;m<=15;m++)a[m].classList.add("disabled");for(let m=16;m<=18;m++)a[m].textContent="";_(".v-toolbar__title.px-2.px-sm-4").textContent="解析wiki-edited-y52en",_(".float-right.px-4>a>.v-avatar").style.display="none"})();
+(async () => {
+   const vue = window.vue
+  const ai_db = {
+    m_GameObject: null,
+    m_Enabled: 1,
+    m_Script: "ObjectPointer(file_id=0, path_id=-5647132677049455812)",
+    m_Name: "BattleAIData_90286",
+    m_ID: 90286,
+    m_PatternChangeDatas: [],
+    m_PatternDatas: [
+      {
+        m_CommandDatas: [
+          {
+            m_Conditions: [
+              {
+                m_Type: 3,
+                m_Args: [3.0, 2.0],
+              },
+              {
+                m_Type: 68,
+                m_Args: [1.0, 0.0, 2.0, 1.0],
+              },
+            ],
+            m_ExecDatas: [
+              {
+                m_CommandIndex: 0,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 50,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+              {
+                m_CommandIndex: 1,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 50,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+            ],
+            m_ExecNum: 0,
+          },
+          {
+            m_Conditions: [
+              {
+                m_Type: 3,
+                m_Args: [3.0, 2.0],
+              },
+              {
+                m_Type: 68,
+                m_Args: [1.0, 0.0, 3.0, 1.0],
+              },
+            ],
+            m_ExecDatas: [
+              {
+                m_CommandIndex: 2,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 50,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+              {
+                m_CommandIndex: 3,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 50,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+            ],
+            m_ExecNum: 0,
+          },
+          {
+            m_Conditions: [
+              {
+                m_Type: 3,
+                m_Args: [3.0, 2.0],
+              },
+              {
+                m_Type: 68,
+                m_Args: [1.0, 0.0],
+              },
+            ],
+            m_ExecDatas: [
+              {
+                m_CommandIndex: 0,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 25,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                  {
+                    m_ID: 2,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+              {
+                m_CommandIndex: 1,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 25,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                  {
+                    m_ID: 2,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+              {
+                m_CommandIndex: 2,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 25,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                  {
+                    m_ID: 3,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+              {
+                m_CommandIndex: 3,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 25,
+                m_AIFlags: [
+                  {
+                    m_ID: 1,
+                    m_IsFlag: 1,
+                  },
+                  {
+                    m_ID: 3,
+                    m_IsFlag: 1,
+                  },
+                ],
+                m_SingleConditions: [],
+              },
+            ],
+            m_ExecNum: 0,
+          },
+          {
+            m_Conditions: [
+              {
+                m_Type: 2,
+                m_Args: [6.0, 0.0, 2.0, 0.0, 0.0, 0.0],
+              },
+            ],
+            m_ExecDatas: [
+              {
+                m_CommandIndex: 4,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 100,
+                m_AIFlags: [],
+                m_SingleConditions: [],
+              },
+            ],
+            m_ExecNum: 0,
+          },
+          {
+            m_Conditions: [
+              {
+                m_Type: 49,
+                m_Args: [4.0, 1.0, 0.0],
+              },
+            ],
+            m_ExecDatas: [
+              {
+                m_CommandIndex: 5,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 100,
+                m_AIFlags: [],
+                m_SingleConditions: [],
+              },
+            ],
+            m_ExecNum: 0,
+          },
+          {
+            m_Conditions: [
+              {
+                m_Type: 44,
+                m_Args: [6.0],
+              },
+            ],
+            m_ExecDatas: [
+              {
+                m_CommandIndex: 6,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 100,
+                m_AIFlags: [],
+                m_SingleConditions: [],
+              },
+            ],
+            m_ExecNum: 0,
+          },
+          {
+            m_Conditions: [
+              {
+                m_Type: 0,
+                m_Args: [0.0, 100.0],
+              },
+            ],
+            m_ExecDatas: [
+              {
+                m_CommandIndex: 7,
+                m_IsCommandTargetSelectionInOrder: 0,
+                m_Ratio: 100,
+                m_AIFlags: [],
+                m_SingleConditions: [],
+              },
+            ],
+            m_ExecNum: 0,
+          },
+        ],
+      },
+    ],
+    m_ChargeCommandDatas: [
+      {
+        m_Conditions: [
+          {
+            m_Type: 68,
+            m_Args: [2.0, 1.0],
+          },
+        ],
+        m_ExecDatas: [
+          {
+            m_CommandIndex: 0,
+            m_IsCommandTargetSelectionInOrder: 0,
+            m_Ratio: 100,
+            m_AIFlags: [
+              {
+                m_ID: 1,
+                m_IsFlag: 0,
+              },
+              {
+                m_ID: 2,
+                m_IsFlag: 0,
+              },
+              {
+                m_ID: 3,
+                m_IsFlag: 1,
+              },
+            ],
+            m_SingleConditions: [],
+          },
+        ],
+        m_ExecNum: 0,
+      },
+      {
+        m_Conditions: [
+          {
+            m_Type: 68,
+            m_Args: [3.0, 1.0],
+          },
+        ],
+        m_ExecDatas: [
+          {
+            m_CommandIndex: 1,
+            m_IsCommandTargetSelectionInOrder: 0,
+            m_Ratio: 100,
+            m_AIFlags: [
+              {
+                m_ID: 1,
+                m_IsFlag: 0,
+              },
+              {
+                m_ID: 2,
+                m_IsFlag: 1,
+              },
+              {
+                m_ID: 3,
+                m_IsFlag: 0,
+              },
+            ],
+            m_SingleConditions: [
+              {
+                m_Type: 3,
+                m_Args: [1.0],
+                isFalse: 0,
+              },
+              {
+                m_Type: 3,
+                m_Args: [1.0],
+                isFalse: 0,
+              },
+              {
+                m_Type: 3,
+                m_Args: [1.0],
+                isFalse: 0,
+              },
+              {
+                m_Type: 3,
+                m_Args: [1.0],
+                isFalse: 0,
+              },
+            ],
+          },
+        ],
+        m_ExecNum: 0,
+      },
+    ],
+    m_SingleTargetPriorityWhenHateSame: 0,
+  };
+
+  vue.$db.BattleAIDataList[ai_db.m_ID] = ai_db;
+  vue.$db.QuestEnemyList["99216004"].m_AIID = ai_db.m_ID;
+  vue.$db.QuestEnemyList["99216004"].m_SkillIDs.forEach((x, i) => {
+    vue.$db.SkillList_EN[x].m_SkillName = "スキル" + (i + 1);
+  });
+  vue.$db.QuestEnemyList["99216004"].m_CharageSkillIDs.forEach((x, i) => {
+    vue.$db.SkillList_EN[x].m_SkillName = "チャージ" + (i + 1);
+  });
+  const $ = (elm) => document.querySelector(elm);
+  const $$ = (elm) => document.querySelectorAll(elm);
+
+  await vue.$router.push("/enemy/99216004?level=0&qid=204033");
+
+  const skill_t = $$(
+    ".d-flex.justify-center.flex-column.small>:not(.primary--text)"
+  );
+  skill_t.forEach((x) => {
+    x.outerHTML = "";
+  });
+
+  const skill_lf = $$(
+    ".row.primary--text.text-center.hidden-xl-only.small.no-gutters>.col:first-child"
+  );
+  skill_lf.forEach((x) => {
+    x.textContent = "硬直: %";
+  });
+
+  $(".display.px-4.primary--text").textContent = "極のデータ???";
+  $$("img.d-inline")[0].parentElement.style.visibility = "hidden";
+  a = $$(".value");
+  for (let i = 0; i <= 6; i++) {
+    a[i].textContent = "";
+  }
+  for (let i = 8; i <= 15; i++) {
+    a[i].classList.add("disabled");
+  }
+  for (let i = 16; i <= 18; i++) {
+    a[i].textContent = "";
+  }
+  $(".v-toolbar__title.px-2.px-sm-4").textContent = "解析wiki-edited-y52en";
+  $(".float-right.px-4>a>.v-avatar").style.display = "none";
+})();
