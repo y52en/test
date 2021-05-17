@@ -366,7 +366,7 @@
   for (let i = 8; i <= 15; i++) {
     a[i].classList.add("disabled");
   }
-  for (let i = 16; i <= 18; i++) {
+  for (let i = 17; i <= 18; i++) {
     a[i].textContent = "";
   }
   $(".v-toolbar__title.px-2.px-sm-4").textContent = "解析wiki-edited-y52en";
