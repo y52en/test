@@ -359,7 +359,7 @@
 
   $(".display.px-4.primary--text").textContent = "極のデータ???";
   $$("img.d-inline")[0].parentElement.style.visibility = "hidden";
-  a = $$(".value");
+  const a = $$(".value");
   for (let i = 0; i <= 6; i++) {
     a[i].textContent = "";
   }
