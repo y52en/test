@@ -357,7 +357,7 @@
     x.textContent = "硬直: %";
   });
 
-  $(".display.px-4.primary--text").textContent = "シナリオ19節大討伐";
+  $(".display.px-4.primary--text").textContent = "シナリオ19節&大討伐";
   $$("img.d-inline")[0].parentElement.style.visibility = "hidden";
   const a = $$(".value");
   for (let i = 0; i <= 6; i++) {
