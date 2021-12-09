@@ -61,7 +61,7 @@
     const output = document.createElement(name);
     if (output) {
       if (inner != undefined) output.innerText = inner;
-      if (Class) output.classList.add(Class);
+      if (Class != undefined && Class !== "") output.classList.add(Class);
       return output;
     } else {
       throw Error("unreachable");
@@ -82,7 +82,7 @@
     link.click();
     URL.revokeObjectURL(url);
   }
-  const key_to_arr = (arr, [...key]) => key.map((x) => arr[x]);
+  const key_to_arr = (arr, key) => key.map((x) => arr[x] ?? undefined);
   (async () => {
     //  [{"m_Rank": 1, "m_NextExp": 30, "m_Stamina": 10, "m_FriendLimit": 20, "m_SupportLimit": 6, "m_BattlePartyCost": 50, "m_WeaponLimit": 20, "m_TrainingSlotNum": 2, "m_StoreReview": 0},...]
     const db = await fetch(
@@ -117,8 +117,7 @@
         .div(total_exp)
         .times(100)
         .dp(2)
-        .toString();
-      if (table_db[i][3] == "0") table_db[i][3] = "0.00";
+        .toFixed(2);
       exp += element.m_NextExp;
     });
 
