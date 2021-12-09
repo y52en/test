@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bignumber.js/8.0.2/bignumber.min.js"
+      integrity="sha512-7UzDjRNKHpQnkh1Wf1l6i/OPINS9P2DDzTwQNX79JxfbInCXGpgI1RPb3ZD+uTP3O5X7Ke4e0+cxt2TxV7n0qQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>ランク表</title>
+  </head>
+  <body>
+    <span class="loading">loading...</span>
+    <input type="button" class="loaded download_csv" value="Download as CSV" />
+    <span class="output loaded"></span>
+  </body>
+</html>
+
+<style>
+  .loading {
+    font-size: large;
+  }
+  .loaded {
+    display: none;
+  }
+  .loaded.finished {
+    display: block;
+  }
+  /* https://qiita.com/orangain/items/6268b6528ab33b27f8f2 */
+  .output thead th {
+    /* 縦スクロール時に固定する */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* tbody内のセルより手前に表示する */
+    z-index: 1;
+  }
+  .output > table > thead > th {
+    background-color: rgba(39, 33, 33);
+    color: #eee;
+  }
+  .output > *,
+  table td {
+    background: #eee;
+  }
+  .output > *,
+  tr:nth-child(odd) td {
+    background: #fff;
+  }
+  .output > table > tr > td:nth-child(1) {
+      background: rgb(105, 105, 104);
+      color: #fff;
+  }
+</style>
+
+<script>
+  function htmltag(name, inner = "", Class = "") {
+    const output = document.createElement(name);
+    if (output) {
+      if (inner != undefined) output.innerText = inner;
+      if (Class) output.classList.add(Class);
+      return output;
+    } else {
+      throw Error("unreachable");
+    }
+  }
+
+  function makeCSVBlob_fromArray(array) {
+    const csv = array.map((x) => x.join(",")).join("\n");
+    const bom = new Uint8Array([0xef, 0xbb, 0xbf]);
+    return new Blob([bom, csv], { type: "text/csv" });
+  }
+
+  function fileDownload_fromURL(blob, fileName = "img.png") {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = fileName;
+    link.click();
+    URL.revokeObjectURL(url);
+  }
+  const key_to_arr = (arr, [...key]) => key.map((x) => arr[x]);
+  (async () => {
+    //  [{"m_Rank": 1, "m_NextExp": 30, "m_Stamina": 10, "m_FriendLimit": 20, "m_SupportLimit": 6, "m_BattlePartyCost": 50, "m_WeaponLimit": 20, "m_TrainingSlotNum": 2, "m_StoreReview": 0},...]
+    const db = await fetch(
+      "https://database.kirafan.cn/database/MasterRank.json"
+    ).then((x) => x.json());
+    const table_header = [
+      "Rank",
+      "NextExp",
+      "TotalExp",
+      "Total%",
+      "Stamina",
+      "Cost",
+      "Friend",
+    ];
+    const table_db = [];
+    const total_exp = db.reduce((x, y) => x + y.m_NextExp, 0);
+    let exp = 0;
+    db.forEach((element, i) => {
+      table_db.push(
+        key_to_arr(element, [
+          "m_Rank",
+          "m_NextExp",
+          undefined,
+          undefined,
+          "m_Stamina",
+          "m_BattlePartyCost",
+          "m_FriendLimit",
+        ])
+      );
+      table_db[i][2] = String(exp);
+      table_db[i][3] = BigNumber(exp)
+        .div(total_exp)
+        .times(100)
+        .dp(2)
+        .toString();
+      if (table_db[i][3] == "0") table_db[i][3] = "0.00";
+      exp += element.m_NextExp;
+    });
+
+    const target_table = document.querySelector(".output");
+    const elm_table = htmltag("table");
+    const elm_thead = htmltag("thead");
+    table_header.forEach((x) => {
+      elm_thead.appendChild(htmltag("th", x));
+    });
+    elm_table.appendChild(elm_thead);
+    table_db.forEach((x) => {
+      const elm_tr = htmltag("tr");
+      x.forEach((y) => {
+        elm_tr.appendChild(htmltag("td", y));
+      });
+      elm_table.appendChild(elm_tr);
+    });
+    target_table.appendChild(elm_table);
+
+    document.querySelectorAll(".loading").forEach((x) => {
+      x.remove();
+    });
+    document.querySelectorAll(".download_csv").forEach((x) => {
+      const table = [table_header, ...table_db];
+      x.addEventListener("click", () => {
+        fileDownload_fromURL(makeCSVBlob_fromArray(table), "rank.csv");
+      });
+    });
+    document.querySelectorAll(".loaded").forEach((x) => {
+      x.classList.add("finished");
+    });
+  })();
+</script>
