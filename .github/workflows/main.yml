@@ -1,15 +1,13 @@
 name: CI
 
 on:
-#   push: # 一度動作確認してActionsが動きそうならオフにする # オフにしないとpushの無限ループにおちいるよ。
+  push: # 一度動作確認してActionsが動きそうならオフにする # オフにしないとpushの無限ループにおちいるよ。
   schedule:
   - cron: "* */1 * * *"
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
       
     - name: setup Node
@@ -17,17 +15,11 @@ jobs:
       with:
           node-version: 10.x
           registry-url: 'https://registry.npmjs.org'
-
-       
     
     - name: Run a multi-line script
       run: |
-        node ./actions/rvh.js
-        
-        echo Add other actions to build,
-        echo test, and deploy your project.
-        
         echo | ls
+        node ./actions/rvh.js        
         
         git config user.name ${NAME}
         git config user.email ${EMAIL}
