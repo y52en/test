@@ -7,7 +7,10 @@ window.onload = () => {
 
   const account_name = Mirrativ.currentUser.name;
   if (!account_name) {
-    alert("you need to login first");
+      alert("you need to login first");
+      document.cookie = "mr_id=1;max-age=0;";
+      document.cookie = "f=0;max-age=0;";
+      
     const id = prompt("please enter mr_id");
     document.cookie = "mr_id=" + id + ";";
     location.reload();
