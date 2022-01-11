@@ -1,100 +1,99 @@
-function promiseBlob(canvas) {
-  return new Promise((resolve, reject) => {
-    canvas.toBlob((blob) => {
-      resolve(blob);
-    });
-  });
-}
-
-async function convertPNG(url) {
-  const img = document.createElement("img");
-  img.src = url;
-  const canvas = document.createElement("canvas");
-  canvas.width = img.width;
-  canvas.height = img.height;
-  const ctx = canvas.getContext("2d");
-  ctx.drawImage(img, 0, 0);
-  const blob = await promiseBlob(canvas);
-  return blob;
-}
-
-function logout() {
-  document.cookie = "mr_id=1;max-age=0;";
-  document.cookie = "f=0;max-age=0;";
-  location.reload();
-}
-
-let img_file;
-async function exec() {
-  const form = new FormData();
-  let slot_id;
-  document.querySelectorAll("[name='slot_id']").forEach((x) => {
-    if (x.checked) {
-      slot_id = x.value;
-    }
-  });
-  let name = document.querySelector("#name").value;
-  const img = await convertPNG(img_file);
-
-  form.append("slot_id", slot_id);
-  form.append("text", name);
-  form.append("image", img);
-
-  const responce = await fetch(
-    "https://www.mirrativ.com/api/gift/update_simple_unique_emomo_gift",
-    {
-      method: "POST",
-      body: form,
-    }
-  ).then((responce) => responce.text());
-  if (responce.match(/^{/)) {
-    const json = JSON.parse(responce);
-    if (json.ok === 1) {
-      alert("success");
-    } else {
-      alert("Unknown error");
-    }
-  } else {
-    alert("failed");
-  }
-}
-
-function imgLoad(e) {
-  var reader = new FileReader();
-  reader.onload = function (e) {
-    const url = URL.createObjectURL(new Blob([e.target.result]));
-    document.querySelector("#preview").src = url;
-    img_file = url;
-  };
-  reader.readAsArrayBuffer(e.target.files[0]);
-}
-
-window.onload = () =>
-{
+window.onload = () => {
   const mr_id = document.cookie
-  ?.split(";")
-  ?.find((item) => item.trim().startsWith("mr_id="))
-  ?.trim()
-  ?.replace("mr_id=", "");
+    ?.split(";")
+    ?.find((item) => item.trim().startsWith("mr_id="))
+    ?.trim()
+    ?.replace("mr_id=", "");
 
-const user_agent = navigator.userAgent;
+  const user_agent = navigator.userAgent;
 
-if (!user_agent.match("MR_APP/")) {
-  throw new Error("Please change your user agent to MR_APP~");
-}
+  if (!user_agent.match("MR_APP/")) {
+    throw new Error("Please change your user agent to MR_APP~");
+  }
 
-const account_name = Mirrativ.currentUser.name;
+  const account_name = Mirrativ.currentUser.name;
 
-if (!account_name) {
-  alert("you need to login first");
-  location.href =
-    "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
-  throw new Error("you need to login first");
-}
+  if (!account_name) {
+    alert("you need to login first");
+    location.href =
+      "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
+    throw new Error("you need to login first");
+  }
 
-document.querySelector("html").innerHTML = "";
+  function promiseBlob(canvas) {
+    return new Promise((resolve, reject) => {
+      canvas.toBlob((blob) => {
+        resolve(blob);
+      });
+    });
+  }
 
-document.body.innerHTML = `
+  async function convertPNG(url) {
+    const img = document.createElement("img");
+    img.src = url;
+    const canvas = document.createElement("canvas");
+    canvas.width = img.width;
+    canvas.height = img.height;
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(img, 0, 0);
+    const blob = await promiseBlob(canvas);
+    return blob;
+  }
+
+  function logout() {
+    document.cookie = "mr_id=1;max-age=0;";
+    document.cookie = "f=0;max-age=0;";
+    location.reload();
+  }
+
+  let img_file;
+  async function exec() {
+    const form = new FormData();
+    let slot_id;
+    document.querySelectorAll("[name='slot_id']").forEach((x) => {
+      if (x.checked) {
+        slot_id = x.value;
+      }
+    });
+    let name = document.querySelector("#name").value;
+    const img = await convertPNG(img_file);
+
+    form.append("slot_id", slot_id);
+    form.append("text", name);
+    form.append("image", img);
+
+    const responce = await fetch(
+      "https://www.mirrativ.com/api/gift/update_simple_unique_emomo_gift",
+      {
+        method: "POST",
+        body: form,
+      }
+    ).then((responce) => responce.text());
+    if (responce.match(/^{/)) {
+      const json = JSON.parse(responce);
+      if (json.status.ok === 1) {
+        alert("success");
+      } else {
+        alert("Unknown error");
+      }
+    } else {
+      alert("failed");
+    }
+  }
+
+  function imgLoad(e) {
+    var reader = new FileReader();
+    reader.onload = function (e) {
+      const url = URL.createObjectURL(new Blob([e.target.result]));
+      document.querySelector("#preview").src = url;
+      img_file = url;
+    };
+    reader.readAsArrayBuffer(e.target.files[0]);
+  }
+
+  document.querySelector("html").innerHTML = "";
+
+  document.body.innerHTML = `
 <span class = "">
     <p>You are logged in as ${account_name} <br>
     <button onclick="${logout.name}()">Logout</button>
@@ -129,6 +128,6 @@ document.body.innerHTML = `
     </p>
 </span>
 `;
-document.querySelector("#img").onchange = imgLoad;
-document.querySelector("#exec").onclick = exec;
-}
+  document.querySelector("#img").onchange = imgLoad;
+  document.querySelector("#exec").onclick = exec;
+};
