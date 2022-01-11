@@ -1,23 +1,19 @@
 window.onload = () => {
-  const mr_id = document.cookie
-    ?.split(";")
-    ?.find((item) => item.trim().startsWith("mr_id="))
-    ?.trim()
-    ?.replace("mr_id=", "");
-
   const user_agent = navigator.userAgent;
 
   if (!user_agent.match("MR_APP/")) {
-    throw new Error("Please change your user agent to MR_APP~");
+    throw alert("Please change your user agent to MR_APP~");
   }
 
   const account_name = Mirrativ.currentUser.name;
-
   if (!account_name) {
     alert("you need to login first");
-    location.href =
-      "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
-    throw new Error("you need to login first");
+    const id = prompt("please enter mr_id");
+    document.cookie = "mr_id=" + id + ";";
+    location.reload();
+    // location.href =
+    //   "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
+    // throw new Error("you need to login first");
   }
 
   function promiseBlob(canvas) {
