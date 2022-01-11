@@ -7,15 +7,15 @@ window.onload = () => {
 
   const account_name = Mirrativ.currentUser.name;
   if (!account_name) {
-      alert("you need to login first");
-      document.cookie = "mr_id=1;max-age=0;";
-      document.cookie = "f=0;max-age=0;";
-      
-    const id = prompt("please enter mr_id");
-    document.cookie = "mr_id=" + id + ";";
-    location.reload();
-    // location.href =
-    //   "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
+    alert("you needa to login first");
+    // document.cookie = "mr_id=1;max-age=0;";
+    // document.cookie = "f=0;max-age=0;";
+
+    // const id = prompt("please enter mr_id");
+    // document.cookie = "mr_id=" + id + ";";
+    // location.reload();
+    location.href =
+      "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
     // throw new Error("you need to login first");
   }
 
@@ -95,7 +95,7 @@ window.onload = () => {
   document.body.innerHTML = `
 <span class = "">
     <p>You are logged in as ${account_name} <br>
-    <button onclick="${logout.name}()">Logout</button>
+    <button id="logout">Logout</button>
     <p>
     <p>
         <b>stamp</b> <br>
@@ -129,4 +129,5 @@ window.onload = () => {
 `;
   document.querySelector("#img").onchange = imgLoad;
   document.querySelector("#exec").onclick = exec;
+  document.querySelector("#logout").onclick = logout;
 };
