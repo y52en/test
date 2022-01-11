@@ -1,24 +1,3 @@
-const mr_id = document.cookie
-  ?.split(";")
-  ?.find((item) => item.trim().startsWith("mr_id="))
-  ?.trim()
-  ?.replace("mr_id=", "");
-
-const user_agent = navigator.userAgent;
-
-// if (!user_agent.match("MR_APP/")) {
-//   throw new Error("Please change your user agent to MR_APP~");
-// }
-
-const account_name = Mirrativ.currentUser.name;
-
-if (!account_name) {
-  alert("you need to login first");
-  location.href =
-    "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
-  throw new Error("you need to login first");
-}
-
 function promiseBlob(canvas) {
   return new Promise((resolve, reject) => {
     canvas.toBlob((blob) => {
@@ -90,6 +69,29 @@ function imgLoad(e) {
   reader.readAsArrayBuffer(e.target.files[0]);
 }
 
+window.onload = () =>
+{
+  const mr_id = document.cookie
+  ?.split(";")
+  ?.find((item) => item.trim().startsWith("mr_id="))
+  ?.trim()
+  ?.replace("mr_id=", "");
+
+const user_agent = navigator.userAgent;
+
+if (!user_agent.match("MR_APP/")) {
+  throw new Error("Please change your user agent to MR_APP~");
+}
+
+const account_name = Mirrativ.currentUser.name;
+
+if (!account_name) {
+  alert("you need to login first");
+  location.href =
+    "https://www.mirrativ.com/social/twitter/redirect_authorize_url";
+  throw new Error("you need to login first");
+}
+
 document.querySelector("html").innerHTML = "";
 
 document.body.innerHTML = `
@@ -129,3 +131,4 @@ document.body.innerHTML = `
 `;
 document.querySelector("#img").onchange = imgLoad;
 document.querySelector("#exec").onclick = exec;
+}
