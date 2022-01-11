@@ -5,10 +5,10 @@ window.onload = () => {
     throw alert("Please change your user agent to MR_APP");
   }
   const mr_id = document.cookie
-    .split(";")
-    .find((item) => item.trim().startsWith("mr_id="))
-    .trim()
-    .replace("mr_id=", "");
+    ?.split(";")
+    ?.find((item) => item.trim().startsWith("mr_id="))
+    ?.trim()
+    ?.replace("mr_id=", "");
 
   function via_error() {
     alert(
