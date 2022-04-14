@@ -33,7 +33,7 @@ function categorize(arr, key) {
   });
 
   arr.forEach((x) => {
-      output[x[key]] = x;
+      output[x[key]].push(x);
   });
   return output;
 }
