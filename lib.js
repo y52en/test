@@ -23,3 +23,17 @@ function distribution(arr, key = undefined) {
   });
   return output;
 }
+
+
+function categorize(arr, key) {
+  let output = {};
+
+  arr.forEach((x) => {
+      output[x[key]] = [];
+  });
+
+  arr.forEach((x) => {
+      output[x[key]] = x;
+  });
+  return output;
+}
