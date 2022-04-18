@@ -37,3 +37,9 @@ function categorize(arr, key) {
   });
   return output;
 }
+
+function searchEnemy(id){
+	return vue.$db.QuestWaveListArray.filter(x => x.m_QuestEnemyIDs.includes(id)).map(x => x.m_ID)
+		.map(waveID => vue.$db.QuestListArray.filter(x => x.waveIDs.includes(waveID)))
+		.map(x => [x,vue.$db.QuestLibraryList[x[0].questLibraryID]])
+}
