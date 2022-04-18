@@ -39,7 +39,11 @@ function categorize(arr, key) {
 }
 
 function searchEnemy(id){
-	return vue.$db.QuestWaveListArray.filter(x => x.m_QuestEnemyIDs.includes(id)).map(x => x.m_ID)
-		.map(waveID => vue.$db.QuestListArray.filter(x => x.waveIDs.includes(waveID)))
-		.map(x => [x,vue.$db.QuestLibraryList[x[0].questLibraryID]])
+  return vue.$db.QuestWaveListArray.filter(x => x.m_QuestEnemyIDs.includes(id)).map(x => x.m_ID)
+    .map(waveID => vue.$db.QuestListArray.filter(x => x.waveIDs.includes(waveID)))
+    .map(x => [x,vue.$db.QuestLibraryList[x[0].questLibraryID]])
+}
+
+function searchWhoUseSkill(id){
+    return vue.$db.QuestEnemyListArray.filter(x => x.m_SkillIDs.includes(id) || x.m_CharageSkillIDs.includes(id))
 }
