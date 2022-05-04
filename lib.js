@@ -51,7 +51,7 @@ function searchWhoUseSkill(id){
 
 function getCancatSkillDB(owner){
     const output = {};
-    const output2 = Object.keys(vue.$db.SkillContentList_EN).map(x => {
+    const output2 = Object.keys(vue.$db[`SkillContentList_${owner}`]).map(x => {
         output[x] = {};
         Object.assign(output[x],vue.$db[`SkillList_${owner}`][x], vue.$db[`SkillContentList_${owner}`][x])
         return output[x];
