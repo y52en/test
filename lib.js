@@ -58,3 +58,13 @@ function getCancatSkillDB(owner){
     })
     return [output, output2];
 }
+
+function diff_obj(obj1,obj2){
+    const output = {}
+    Object.keys(obj1).forEach(x =>{
+        if(obj1[x] !== obj2[x]){
+            output[x] = [obj1[x], obj2[x]]
+        }   
+    })
+    return output;
+}
