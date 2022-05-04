@@ -47,3 +47,14 @@ function searchEnemy(id){
 function searchWhoUseSkill(id){
     return vue.$db.QuestEnemyListArray.filter(x => x.m_SkillIDs.includes(id) || x.m_CharageSkillIDs.includes(id))
 }
+
+
+function getCancatSkillDB(owner){
+    const output = {};
+    const output2 = Object.keys(vue.$db.SkillContentList_EN).map(x => {
+        output[x] = {};
+        Object.assign(output[x],vue.$db[`SkillList_${owner}`][x], vue.$db[`SkillContentList_${owner}`][x])
+        return output[x];
+    })
+    return [output, output2];
+}
