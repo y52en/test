@@ -1,0 +1,25 @@
+<script>
+  const data = (await 
+                (await 
+                 fetch("https://plum-chloride.jp/kotonoha-tango/public/data/A_data_new.csv?ver=5.1.2"))
+                  .text()
+               ).split("\n").sort((a, b) => a.localeCompare(b), 'ja').join("\n");
+  
+  
+  makeCSVfile_download(data,"入力用辞書")
+  
+  function makeCSVfile_download(csv: string, fileName) {
+  const bom = new Uint8Array([0xef, 0xbb, 0xbf]);
+  const blob = new Blob([bom, csv], { type: "text/csv" });
+  const blobUrl = URL.createObjectURL(blob);
+
+  const link = document.createElement("a");
+  link.href = blobUrl;
+  link.download = fileName;
+  link.style.display = "none";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(blobUrl);
+}
+ </script>
