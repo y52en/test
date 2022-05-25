@@ -1,5 +1,5 @@
 <script>
-
+(async()=>{
 const data = (await
   (await fetch("https://plum-chloride.jp/kotonoha-tango/public/data/A_data_new.csv?ver=5.1.2"))
   .text()
@@ -22,6 +22,6 @@ function makeCSVfile_download(csv, fileName) {
   document.body.removeChild(link);
   URL.revokeObjectURL(blobUrl);
 }
-
+})()
    </script>
   
