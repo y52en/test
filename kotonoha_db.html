@@ -1,27 +1,102 @@
 <script>
-(async()=>{
-const data = (await
-  (await fetch("https://plum-chloride.jp/kotonoha-tango/public/data/A_data_new.csv?ver=5.1.2"))
-  .text()
-).split("\n").sort((a, b) => a.localeCompare(b), 'ja').join("\n");
+class OperateURL {
+  _href;
+  autochange;
+  _urlAPI;
+  constructor(_URL = location.href, autochange = true) {
+    this._href = _URL;
+    this._urlAPI = new URL(this._href);
+    this.autochange = autochange;
+  }
 
+  getParam(param) {
+    const val = this._urlAPI.searchParams.get(param) || "";
+    try {
+      return decodeURIComponent(val);
+    } catch {
+      return val;
+    }
+  }
 
-makeCSVfile_download(data, "入力用辞書")
+  setParam(name, value = "") {
+    this._urlAPI.searchParams.set(name, value);
+    if (this.autochange) {
+      this._setURL(this._urlAPI.href);
+    }
+  }
 
-function makeCSVfile_download(csv, fileName) {
-  const bom = new Uint8Array([0xef, 0xbb, 0xbf]);
-  const blob = new Blob([bom, csv], { type: "text/csv" });
-  const blobUrl = URL.createObjectURL(blob);
+  get hash() {
+    return this._urlAPI.hash;
+  }
 
-  const link = document.createElement("a");
-  link.href = blobUrl;
-  link.download = fileName;
-  link.style.display = "none";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  URL.revokeObjectURL(blobUrl);
+  set hash(val) {
+    this._setURL(`#${val}`);
+  }
+
+  get href() {
+    return (
+      this._urlAPI.protocol +
+      "//" +
+      this._urlAPI.host +
+      this._urlAPI.pathname +
+      "?TL=" +
+      encodeURIComponent(this.getParam("TL"))
+    );
+  }
+
+  set href(val) {
+    this._urlAPI.href = val;
+  }
+
+  _setURL(arg3) {
+    if (this.autochange) {
+      history.replaceState("", "", arg3);
+    }
+  }
+
+  _reflesh() {
+    this._urlAPI = new URL(this._href);
+  }
 }
+
+(async()=>{
+  const url = new OperateURL();
+  if(url.getParam("answer") === "true"){
+    const data = (await
+      (await fetch("https://plum-chloride.jp/kotonoha-tango/public/data/Q_fil_ippan.csv?ver=5.1.3"))
+      .text()
+    ).split("\n").map(x => x.split(","))
+    .sort((a, b) => a[1].localeCompare(b[1]), 'ja').map(x => x.join(",")).join("\n");
+    
+    makeCSVfile_download(data, "回答用辞書")
+
+  }else{
+  const data = (await
+    (await fetch("https://plum-chloride.jp/kotonoha-tango/public/data/A_data_new.csv?ver=5.1.2"))
+    .text()
+  ).split("\n").sort((a, b) => a.localeCompare(b), 'ja').join("\n");
+  
+  makeCSVfile_download(data, "入力用辞書")
+
+  }
+  
+  function makeCSVfile_download(csv, fileName) {
+    const bom = new Uint8Array([0xef, 0xbb, 0xbf]);
+    const blob = new Blob([bom, csv], { type: "text/csv" });
+    const blobUrl = URL.createObjectURL(blob);
+  
+    const link = document.createElement("a");
+    link.href = blobUrl;
+    link.download = fileName;
+    link.style.display = "none";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(blobUrl);
+  }
+  
+  
+  
 })()
    </script>
   
