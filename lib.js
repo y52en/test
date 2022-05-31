@@ -68,3 +68,7 @@ function diff_obj(obj1,obj2){
     })
     return output;
 }
+
+function skill_finder(obj,fn){
+  return obj.filter(x => x.m_Datas.filter(fn).length > 0)
+}
