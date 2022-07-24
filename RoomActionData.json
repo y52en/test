@@ -49,7 +49,7 @@
                 "m_Time": 3.3333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 3.3333333
             },
@@ -139,7 +139,7 @@
                 "m_Time": 7.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 7.0
             },
@@ -157,7 +157,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -206,7 +206,7 @@
                 "m_Time": 3.3333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 3.3333333
             },
@@ -339,7 +339,7 @@
                 "m_Time": 8.033334
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 8.033334
             },
@@ -350,7 +350,7 @@
                 "m_Time": 8.366667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 8.366667
             }
@@ -362,7 +362,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -406,7 +406,7 @@
                 "m_Time": 0.5
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.5
             },
@@ -513,7 +513,7 @@
                 "m_Time": 5.6666665
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 5.6666665
             },
@@ -524,7 +524,7 @@
                 "m_Time": 6.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 6.0
             }
@@ -537,6 +537,7 @@
         "m_Table": [
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": -0.07,
                     "y": 1.3,
@@ -547,7 +548,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -605,7 +606,7 @@
                 "m_Time": 0.6
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.6
             },
@@ -694,7 +695,7 @@
                 "m_Time": 17.466667
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 17.466667
             },
@@ -705,7 +706,7 @@
                 "m_Time": 17.666666
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 17.666666
             }
@@ -761,7 +762,7 @@
                 "m_Time": 3.3333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 3.3333333
             },
@@ -851,7 +852,7 @@
                 "m_Time": 7.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 7.0
             },
@@ -869,7 +870,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -956,7 +957,7 @@
                 "m_Time": 3.3333333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 3.3333333
             }
@@ -968,7 +969,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -1045,7 +1046,7 @@
                 "m_Time": 0.33333334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.33333334
             },
@@ -1084,266 +1085,178 @@
                 "m_Time": 1.6666666
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.6666666
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.6666666
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.0
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": true,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.0
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": false,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.5
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.5
             },
             {
-                "unknown1": "obj_5",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_5",
+                "m_View": true,
+                "m_CRCkey": 1656742727,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.5
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": true,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.8
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.8
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.5666666
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": false,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.5666666
             },
             {
-                "unknown1": "obj_4",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_4",
+                "m_View": true,
+                "m_CRCkey": 364434385,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.5666666
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": true,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.6666665
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.6666665
             },
             {
-                "unknown1": "obj_4",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_4",
+                "m_View": false,
+                "m_CRCkey": 364434385,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.6666665
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.1666665
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": false,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.1666665
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": true,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.8333335
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.8333335
             },
             {
-                "unknown1": "obj_5",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_5",
+                "m_View": false,
+                "m_CRCkey": 1656742727,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.8333335
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.1666665
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": false,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.1666665
             },
@@ -1376,26 +1289,18 @@
                 "m_Time": 9.833333
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.833333
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.833333
             },
@@ -1418,12 +1323,12 @@
                 "m_Time": 10.633333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 9.833333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 10.633333
             }
@@ -1435,7 +1340,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -1460,7 +1365,7 @@
                 "m_Time": 0.13333334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.33333334
             },
@@ -1517,7 +1422,7 @@
                 "m_Time": 4.133333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 4.266667
             },
@@ -1533,7 +1438,7 @@
                 "m_Time": 4.3333335
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 4.3333335
             }
@@ -1545,7 +1450,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -1570,7 +1475,7 @@
                 "m_Time": 2.6333334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 2.8333333
             },
@@ -1601,7 +1506,7 @@
                 "m_Time": 7.133333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 7.266667
             },
@@ -1617,7 +1522,7 @@
                 "m_Time": 7.5333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 7.5333333
             }
@@ -1629,7 +1534,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -1672,7 +1577,7 @@
                 "m_Time": 2.3
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 2.7
             },
@@ -1742,7 +1647,7 @@
                 "m_Time": 12.366667
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 11.766666
             },
@@ -1753,7 +1658,7 @@
                 "m_Time": 12.066667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 12.066667
             }
@@ -1765,7 +1670,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -1790,7 +1695,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 2.0666666
             },
@@ -1835,7 +1740,7 @@
                 "m_Time": 14.2
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 15.4
             },
@@ -1851,7 +1756,7 @@
                 "m_Time": 15.566667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 15.566667
             }
@@ -1863,7 +1768,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2013,7 +1918,7 @@
                 "m_Time": 3.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 3.0
             }
@@ -2025,7 +1930,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2168,7 +2073,7 @@
                 "m_Time": 3.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 3.0
             }
@@ -2180,7 +2085,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2328,7 +2233,7 @@
                 "m_Time": 10.333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 10.333333
             }
@@ -2340,7 +2245,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2432,7 +2337,7 @@
                 "m_Time": 6.3333335
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 6.3333335
             }
@@ -2444,7 +2349,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2588,7 +2493,7 @@
                 "m_Time": 12.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 12.0
             }
@@ -2600,7 +2505,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2774,7 +2679,7 @@
                 "m_Time": 67.666664
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 67.666664
             }
@@ -2786,7 +2691,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2924,7 +2829,7 @@
                 "m_Time": 10.333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 10.333333
             }
@@ -2936,7 +2841,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -2974,6 +2879,7 @@
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": -0.64,
                     "y": 0.5,
@@ -3088,7 +2994,7 @@
                 "m_Time": 7.5666666
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 8.0
             }
@@ -3100,7 +3006,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -3146,6 +3052,7 @@
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": 0.0,
                     "y": 0.0,
@@ -3288,7 +3195,7 @@
                 "m_Time": 6.6666665
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 6.6666665
             }
@@ -3300,7 +3207,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -3338,6 +3245,7 @@
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": -0.64,
                     "y": 0.5,
@@ -3406,7 +3314,7 @@
                 "m_Time": 9.4
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 9.733334
             }
@@ -3418,7 +3326,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -3461,7 +3369,7 @@
                 "m_Time": 9.3
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 9.3
             }
@@ -3473,7 +3381,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -3519,6 +3427,7 @@
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": 0.0,
                     "y": 0.0,
@@ -3661,7 +3570,7 @@
                 "m_Time": 6.6666665
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 6.6666665
             }
@@ -3673,7 +3582,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -3832,7 +3741,7 @@
                 "m_Time": 14.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 14.0
             }
@@ -3844,7 +3753,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -3900,7 +3809,7 @@
                 "m_Time": 3.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 3.0
             }
@@ -3912,7 +3821,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4054,7 +3963,7 @@
                 "m_Time": 8.533334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 8.533334
             }
@@ -4066,7 +3975,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4124,7 +4033,7 @@
                 "m_Time": 5.8333335
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 5.8333335
             }
@@ -4154,6 +4063,7 @@
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": 0.0,
                     "y": 0.8,
@@ -4321,7 +4231,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4344,7 +4254,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 0.0
             }
@@ -4356,7 +4266,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4460,7 +4370,7 @@
                 "m_Time": 10.033334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 10.033334
             }
@@ -4472,7 +4382,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4530,7 +4440,7 @@
                 "m_Time": 7.3333335
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 7.3333335
             }
@@ -4542,7 +4452,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4696,7 +4606,7 @@
                 "m_Time": 9.6
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 9.6
             }
@@ -4708,7 +4618,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4739,7 +4649,7 @@
                 "m_Time": 0.33333334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.33333334
             },
@@ -4822,7 +4732,7 @@
                 "m_Time": 4.6666665
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 4.6666665
             },
@@ -4833,7 +4743,7 @@
                 "m_Time": 5.1666665
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 5.1666665
             }
@@ -4845,7 +4755,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4875,7 +4785,7 @@
                 "m_Time": 4.3333335
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 4.3333335
             }
@@ -4887,7 +4797,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4917,7 +4827,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -4927,7 +4837,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 0.0
             }
@@ -4940,6 +4850,7 @@
         "m_Table": [
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": -0.32,
                     "y": 0.78,
@@ -4950,7 +4861,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -4978,7 +4889,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -5335,7 +5246,7 @@
                 "m_Time": 8.9
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 8.9
             }
@@ -5348,6 +5259,7 @@
         "m_Table": [
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": -0.163,
                     "y": 0.8,
@@ -5358,7 +5270,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -5368,7 +5280,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -5421,7 +5333,7 @@
                 "m_Time": 9.666667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 12.866667
             }
@@ -5433,7 +5345,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -5512,7 +5424,7 @@
                 "m_Time": 8.1
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 8.1
             }
@@ -5524,7 +5436,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -5549,7 +5461,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 1.4333333
             },
@@ -5574,7 +5486,7 @@
                 "m_Time": 15.833333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 16.166666
             },
@@ -5584,7 +5496,7 @@
                 "m_Time": 17.1
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 17.1
             }
@@ -5596,12 +5508,14 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "LOC_Goods_1050",
+                "m_TargetName": "LOC_Goods_1050",
+                "m_CRCkey": 3671994385,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": -0.01,
                     "y": 0.0,
@@ -5613,6 +5527,7 @@
             },
             {
                 "m_TargetName": "obj_1",
+                "m_CRCKey": 1708271454,
                 "m_Pos": {
                     "x": -0.01,
                     "y": -0.025,
@@ -5623,7 +5538,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -5655,7 +5570,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -5700,26 +5615,18 @@
                 "m_Time": 6.5
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.5
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 11.866667
             },
@@ -5749,12 +5656,12 @@
                 "m_Time": 14.666667
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 15.766666
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 15.766666
             }
@@ -5766,12 +5673,14 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "LOC_Goods_1053",
+                "m_TargetName": "LOC_Goods_1053",
+                "m_CRCkey": 1138188715,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": 0.01,
                     "y": -0.05,
@@ -5783,6 +5692,7 @@
             },
             {
                 "m_TargetName": "obj_1",
+                "m_CRCKey": 1708271454,
                 "m_Pos": {
                     "x": 0.01,
                     "y": -0.05,
@@ -5793,7 +5703,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -5825,7 +5735,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -5864,14 +5774,10 @@
                 "m_Time": 6.4333334
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.4333334
             },
@@ -5882,14 +5788,10 @@
                 "m_Time": 11.666667
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 13.633333
             },
@@ -5919,12 +5821,12 @@
                 "m_Time": 20.533333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 21.166666
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 21.666666
             }
@@ -5943,12 +5845,14 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_0",
+                "m_TargetName": "obj_0",
+                "m_CRCkey": 315955144,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": 0.05,
                     "y": 0.05,
@@ -5959,7 +5863,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -6037,26 +5941,18 @@
                 "m_Time": 2.4333334
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.3
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 14.466666
             },
@@ -6068,7 +5964,7 @@
                 "m_Time": 14.833333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 14.833333
             },
@@ -6090,7 +5986,7 @@
                 "m_Time": 14.866667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 15.8
             }
@@ -6102,12 +5998,14 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "LOC_Goods_1054",
+                "m_TargetName": "LOC_Goods_1054",
+                "m_CRCkey": 3719558152,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
                 "m_TargetName": "obj_0",
+                "m_CRCKey": 315955144,
                 "m_Pos": {
                     "x": -0.01,
                     "y": 0.0,
@@ -6119,6 +6017,7 @@
             },
             {
                 "m_TargetName": "obj_1",
+                "m_CRCKey": 1708271454,
                 "m_Pos": {
                     "x": 0.007,
                     "y": 0.015,
@@ -6129,7 +6028,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -6179,7 +6078,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -6224,26 +6123,18 @@
                 "m_Time": 2.3333333
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.3333333
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.0
             },
@@ -6279,12 +6170,12 @@
                 "m_Time": 13.333333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 14.333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 14.333333
             }
@@ -6296,17 +6187,19 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "obj_2",
+                "m_TargetName": "obj_2",
+                "m_CRCkey": 4242241252,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_5",
+                "m_TargetName": "obj_5",
+                "m_CRCkey": 1656742727,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -6406,7 +6299,7 @@
                 "m_Time": 0.6666667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.6666667
             },
@@ -6445,14 +6338,10 @@
                 "m_Time": 5.0
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": true,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.0
             },
@@ -6496,14 +6385,10 @@
                 "m_Time": 18.1
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": false,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 18.1
             },
@@ -6546,7 +6431,7 @@
                 "m_Time": 19.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 19.0
             },
@@ -6557,7 +6442,7 @@
                 "m_Time": 20.133333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 20.133333
             }
@@ -6569,7 +6454,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -6601,7 +6486,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 2.0666666
             },
@@ -6640,7 +6525,7 @@
                 "m_Time": 14.433333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 15.433333
             },
@@ -6656,7 +6541,7 @@
                 "m_Time": 15.433333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 15.433333
             }
@@ -6668,7 +6553,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -6725,7 +6610,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -6738,26 +6623,18 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.2666667
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.7
             },
@@ -6768,55 +6645,39 @@
                 "m_Time": 5.6
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.6
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.1
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 8.1
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 8.6
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 11.566667
             },
@@ -6844,7 +6705,7 @@
                 "m_Time": 11.566667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 11.566667
             }
@@ -6856,40 +6717,30 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "obj_0",
+                "m_TargetName": "obj_0",
+                "m_CRCkey": 315955144,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "kuri_nakami",
+                "m_TargetName": "kuri_nakami",
+                "m_CRCkey": 467470853,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": [
-                    51,
-                    51,
-                    115,
-                    63,
-                    51,
-                    51,
-                    115,
-                    63,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    128,
-                    193
-                ],
+                "m_TargetName": "obj_0",
+                "m_Pos": {
+                    "x": 0.95,
+                    "y": 0.95,
+                    "z": 0.0
+                },
+                "m_Rot": -16.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
@@ -6932,7 +6783,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -6945,38 +6796,26 @@
                 "m_Time": 0.8333333
             },
             {
-                "unknown1": "kuri_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_0",
+                "m_View": true,
+                "m_CRCkey": 2131351562,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 0.8333333
             },
             {
-                "unknown1": "kuri_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_0",
+                "m_View": false,
+                "m_CRCkey": 2131351562,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.3333334
             },
             {
-                "unknown1": "kuri_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_1",
+                "m_View": true,
+                "m_CRCkey": 135194780,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.3333334
             },
@@ -6990,14 +6829,10 @@
                 "m_Time": 3.4666667
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.5
             },
@@ -7011,50 +6846,34 @@
                 "m_Time": 8.1
             },
             {
-                "unknown1": "kuri_nakami",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_nakami",
+                "m_View": true,
+                "m_CRCkey": 467470853,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 8.166667
             },
             {
-                "unknown1": "kuri_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_2",
+                "m_View": true,
+                "m_CRCkey": 2433202470,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 8.166667
             },
             {
-                "unknown1": "kuri_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_1",
+                "m_View": false,
+                "m_CRCkey": 135194780,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 8.266666
             },
             {
-                "unknown1": "kuri_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_2",
+                "m_View": false,
+                "m_CRCkey": 2433202470,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 10.733334
             },
@@ -7077,14 +6896,10 @@
                 "m_Time": 10.733334
             },
             {
-                "unknown1": "kuri_nakami",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "kuri_nakami",
+                "m_View": false,
+                "m_CRCkey": 467470853,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 11.766666
             },
@@ -7095,7 +6910,7 @@
                 "m_Time": 11.766666
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 11.766666
             },
@@ -7123,7 +6938,7 @@
                 "m_Time": 12.8
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 12.8
             }
@@ -7135,22 +6950,25 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "Uchiwa",
+                "m_TargetName": "Uchiwa",
+                "m_CRCkey": 3494683846,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "Hashi",
+                "m_TargetName": "Hashi",
+                "m_CRCkey": 3804666537,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "Sara",
+                "m_TargetName": "Sara",
+                "m_CRCkey": 2522191101,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -7211,71 +7029,35 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": "Uchiwa",
-                "unknown2": [
-                    205,
-                    204,
-                    204,
-                    61,
-                    0,
-                    0,
-                    0,
-                    63,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "Uchiwa",
+                "m_Pos": {
+                    "x": 0.1,
+                    "y": 0.5,
+                    "z": 0.0
+                },
+                "m_Rot": 0.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "Hashi",
-                "unknown2": [
-                    205,
-                    204,
-                    204,
-                    61,
-                    0,
-                    0,
-                    0,
-                    63,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    180,
-                    194
-                ],
+                "m_TargetName": "Hashi",
+                "m_Pos": {
+                    "x": 0.1,
+                    "y": 0.5,
+                    "z": 0.0
+                },
+                "m_Rot": -90.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "Sara",
-                "unknown2": [
-                    205,
-                    204,
-                    204,
-                    62,
-                    205,
-                    204,
-                    12,
-                    63,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "Sara",
+                "m_Pos": {
+                    "x": 0.4,
+                    "y": 0.55,
+                    "z": 0.0
+                },
+                "m_Rot": 0.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
@@ -7305,7 +7087,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -7319,626 +7101,418 @@
                 "m_Time": 2.7333333
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.7333333
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.8666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.8666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.9666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.9666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.0666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.0666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.1666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.1666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.2666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.2666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.3666666
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.3666666
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.4666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.4666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.5666666
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.5666666
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.6666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.6666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.7666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.7666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.8666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.8666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.9666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.9666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.0666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.0666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.1666665
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.1666665
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.266667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.266667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.366667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.366667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.4666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.4666667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.5666666
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.5666666
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.6666665
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.6666665
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.766667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.766667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.866667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.866667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.9666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.9666667
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.0666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.0666666
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.1666665
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": true,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.1666665
             },
             {
-                "unknown1": "uchiwa_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_A_01",
+                "m_View": false,
+                "m_CRCkey": 1825137246,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.266667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": true,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.266667
             },
             {
-                "unknown1": "uchiwa_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "uchiwa_B_01",
+                "m_View": false,
+                "m_CRCkey": 2122108336,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.3333335
             },
@@ -7967,350 +7541,234 @@
                 "m_Time": 6.5333333
             },
             {
-                "unknown1": "hashi_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_01",
+                "m_View": true,
+                "m_CRCkey": 2941012848,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.6
             },
             {
-                "unknown1": "hashi_A_02",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_02",
+                "m_View": true,
+                "m_CRCkey": 910498506,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.6
             },
             {
-                "unknown1": "sara_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sara_B_01",
+                "m_View": true,
+                "m_CRCkey": 3911172494,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.6
             },
             {
-                "unknown1": "hashi_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_01",
+                "m_View": false,
+                "m_CRCkey": 2941012848,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.1
             },
             {
-                "unknown1": "hashi_A_02",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_02",
+                "m_View": false,
+                "m_CRCkey": 910498506,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.1
             },
             {
-                "unknown1": "hashi_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_01",
+                "m_View": true,
+                "m_CRCkey": 3187270814,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.1
             },
             {
-                "unknown1": "hashi_B_02",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_02",
+                "m_View": true,
+                "m_CRCkey": 619754788,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.1
             },
             {
-                "unknown1": "hashi_B_03",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_03",
+                "m_View": true,
+                "m_CRCkey": 1408730546,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.1
             },
             {
-                "unknown1": "sara_B_02",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sara_B_02",
+                "m_View": true,
+                "m_CRCkey": 1880526900,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.4
             },
             {
-                "unknown1": "hashi_B_03",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_03",
+                "m_View": false,
+                "m_CRCkey": 1408730546,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.4
             },
             {
-                "unknown1": "hashi_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_01",
+                "m_View": false,
+                "m_CRCkey": 3187270814,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.4
             },
             {
-                "unknown1": "hashi_B_02",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_02",
+                "m_View": false,
+                "m_CRCkey": 619754788,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.4
             },
             {
-                "unknown1": "hashi_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_01",
+                "m_View": true,
+                "m_CRCkey": 2941012848,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.4
             },
             {
-                "unknown1": "hashi_A_02",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_02",
+                "m_View": true,
+                "m_CRCkey": 910498506,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.4
             },
             {
-                "unknown1": "hashi_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_01",
+                "m_View": false,
+                "m_CRCkey": 2941012848,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.866667
             },
             {
-                "unknown1": "hashi_A_02",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_02",
+                "m_View": false,
+                "m_CRCkey": 910498506,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.866667
             },
             {
-                "unknown1": "hashi_B_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_01",
+                "m_View": true,
+                "m_CRCkey": 3187270814,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.866667
             },
             {
-                "unknown1": "hashi_B_02",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_02",
+                "m_View": true,
+                "m_CRCkey": 619754788,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.866667
             },
             {
-                "unknown1": "hashi_B_03",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_03",
+                "m_View": true,
+                "m_CRCkey": 1408730546,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.866667
             },
             {
-                "unknown1": "hashi_B_03",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_03",
+                "m_View": false,
+                "m_CRCkey": 1408730546,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 12.0
             },
             {
-                "unknown1": "hashi_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_01",
+                "m_View": false,
+                "m_CRCkey": 3187270814,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 12.0
             },
             {
-                "unknown1": "hashi_B_02",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_B_02",
+                "m_View": false,
+                "m_CRCkey": 619754788,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 12.0
             },
             {
-                "unknown1": "hashi_A_01",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_01",
+                "m_View": true,
+                "m_CRCkey": 2941012848,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 12.0
             },
             {
-                "unknown1": "hashi_A_02",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_02",
+                "m_View": true,
+                "m_CRCkey": 910498506,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 12.0
             },
             {
-                "unknown1": "hashi_A_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_01",
+                "m_View": false,
+                "m_CRCkey": 2941012848,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 15.7
             },
             {
-                "unknown1": "hashi_A_02",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "hashi_A_02",
+                "m_View": false,
+                "m_CRCkey": 910498506,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 15.7
             },
             {
-                "unknown1": "sara_B_01",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sara_B_01",
+                "m_View": false,
+                "m_CRCkey": 3911172494,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 15.7
             },
             {
-                "unknown1": "sara_B_02",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sara_B_02",
+                "m_View": false,
+                "m_CRCkey": 1880526900,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 15.7
             },
             {
-                "unknown1": "sara_B_03",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sara_B_03",
+                "m_View": false,
+                "m_CRCkey": 118595746,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 15.7
             },
@@ -8327,7 +7785,7 @@
                 "m_Time": 15.7
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 15.733334
             },
@@ -8350,7 +7808,7 @@
                 "m_Time": 16.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 16.0
             }
@@ -8362,73 +7820,53 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "stick",
+                "m_TargetName": "stick",
+                "m_CRCkey": 1337666258,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "sweetpotato_1",
+                "m_TargetName": "sweetpotato_1",
+                "m_CRCkey": 3455983589,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "sweetpotato_2",
+                "m_TargetName": "sweetpotato_2",
+                "m_CRCkey": 1425493599,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "sweetpotato_3",
+                "m_TargetName": "sweetpotato_3",
+                "m_CRCkey": 602963657,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "stick",
-                "unknown2": [
-                    154,
-                    153,
-                    25,
-                    63,
-                    205,
-                    204,
-                    204,
-                    62,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    240,
-                    194
-                ],
+                "m_TargetName": "stick",
+                "m_Pos": {
+                    "x": 0.6,
+                    "y": 0.4,
+                    "z": 0.0
+                },
+                "m_Rot": -120.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "sweetpotato_1",
-                "unknown2": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    240,
-                    193
-                ],
+                "m_TargetName": "sweetpotato_1",
+                "m_Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Rot": -30.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
@@ -8463,7 +7901,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -8501,14 +7939,10 @@
                 "m_Time": 5.1666665
             },
             {
-                "unknown1": "stick",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "stick",
+                "m_View": true,
+                "m_CRCkey": 1337666258,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.2
             },
@@ -8522,14 +7956,10 @@
                 "m_Time": 6.6
             },
             {
-                "unknown1": "sweetpotato_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sweetpotato_1",
+                "m_View": true,
+                "m_CRCkey": 3455983589,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.733333
             },
@@ -8540,14 +7970,10 @@
                 "m_Time": 8.166667
             },
             {
-                "unknown1": "stick",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "stick",
+                "m_View": false,
+                "m_CRCkey": 1337666258,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 8.166667
             },
@@ -8558,14 +7984,10 @@
                 "m_Time": 9.0
             },
             {
-                "unknown1": "sweetpotato_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sweetpotato_1",
+                "m_View": false,
+                "m_CRCkey": 3455983589,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.0
             },
@@ -8588,38 +8010,26 @@
                 "m_Time": 9.033334
             },
             {
-                "unknown1": "sweetpotato_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sweetpotato_2",
+                "m_View": true,
+                "m_CRCkey": 1425493599,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.033334
             },
             {
-                "unknown1": "sweetpotato_3",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sweetpotato_3",
+                "m_View": true,
+                "m_CRCkey": 602963657,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.033334
             },
             {
-                "unknown1": "sweetpotato_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sweetpotato_2",
+                "m_View": false,
+                "m_CRCkey": 1425493599,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 10.6
             },
@@ -8630,14 +8040,10 @@
                 "m_Time": 10.6
             },
             {
-                "unknown1": "sweetpotato_3",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "sweetpotato_3",
+                "m_View": false,
+                "m_CRCkey": 602963657,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 11.666667
             },
@@ -8653,7 +8059,7 @@
                 "m_Time": 11.666667
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 11.833333
             },
@@ -8676,7 +8082,7 @@
                 "m_Time": 11.833333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 11.833333
             }
@@ -8688,50 +8094,42 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "open_cup",
+                "m_TargetName": "open_cup",
+                "m_CRCkey": 621313170,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "close_cup",
+                "m_TargetName": "close_cup",
+                "m_CRCkey": 2123051367,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "set_cup",
+                "m_TargetName": "set_cup",
+                "m_CRCkey": 3476380460,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "pitcher",
+                "m_TargetName": "pitcher",
+                "m_CRCkey": 2608552527,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "pitcher",
-                "unknown2": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    64,
-                    65
-                ],
+                "m_TargetName": "pitcher",
+                "m_Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Rot": 12.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -8836,7 +8234,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -8850,26 +8248,18 @@
                 "m_Time": 1.0
             },
             {
-                "unknown1": "open_cup",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "open_cup",
+                "m_View": true,
+                "m_CRCkey": 621313170,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.0
             },
             {
-                "unknown1": "open_cup",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "open_cup",
+                "m_View": false,
+                "m_CRCkey": 621313170,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.7
             },
@@ -8880,14 +8270,10 @@
                 "m_Time": 1.7
             },
             {
-                "unknown1": "set_cup",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "set_cup",
+                "m_View": true,
+                "m_CRCkey": 3476380460,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.7
             },
@@ -8901,14 +8287,10 @@
                 "m_Time": 3.3666666
             },
             {
-                "unknown1": "pitcher",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "pitcher",
+                "m_View": true,
+                "m_CRCkey": 2608552527,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 3.3666666
             },
@@ -8927,14 +8309,10 @@
                 "m_Time": 3.6666667
             },
             {
-                "unknown1": "pitcher",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "pitcher",
+                "m_View": false,
+                "m_CRCkey": 2608552527,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.2
             },
@@ -8948,49 +8326,32 @@
                 "m_Time": 10.233334
             },
             {
-                "unknown1": "set_cup",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "set_cup",
+                "m_View": false,
+                "m_CRCkey": 3476380460,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 10.233334
             },
             {
-                "unknown1": "close_cup",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "close_cup",
+                "m_View": true,
+                "m_CRCkey": 2123051367,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 10.233334
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unknown2": "anime",
+                "m_PlayAnimNo": 0,
+                "m_Anmname": "anime",
                 "m_Command": 30,
                 "m_Time": 10.233334
             },
             {
-                "unknown1": "close_cup",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "close_cup",
+                "m_View": false,
+                "m_CRCkey": 2123051367,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 10.733334
             },
@@ -9000,7 +8361,7 @@
                 "m_Time": 11.3
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 11.3
             },
@@ -9023,7 +8384,7 @@
                 "m_Time": 11.3
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 11.3
             }
@@ -9035,17 +8396,20 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "herbs_L",
-                "m_Command": 27,
-                "m_Time": 0.0
-            },
-            {
-                "unknown1": "herbs_R",
+                "m_TargetName": "herbs_L",
+                "m_CRCkey": 2077185307,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
                 "m_TargetName": "herbs_R",
+                "m_CRCkey": 2176870520,
+                "m_Command": 27,
+                "m_Time": 0.0
+            },
+            {
+                "m_TargetName": "herbs_R",
+                "m_CRCKey": 2176870520,
                 "m_Pos": {
                     "x": 20.0,
                     "y": 20.0,
@@ -9057,6 +8421,7 @@
             },
             {
                 "m_TargetName": "herbs_L",
+                "m_CRCKey": 2077185307,
                 "m_Pos": {
                     "x": 20.0,
                     "y": 20.0,
@@ -9081,7 +8446,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -9109,7 +8474,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -9154,50 +8519,34 @@
                 "m_Time": 1.8
             },
             {
-                "unknown1": "herbs_L",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "herbs_L",
+                "m_View": true,
+                "m_CRCkey": 2077185307,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.8666667
             },
             {
-                "unknown1": "herbs_R",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "herbs_R",
+                "m_View": true,
+                "m_CRCkey": 2176870520,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.8666667
             },
             {
-                "unknown1": "herbs_L",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "herbs_L",
+                "m_View": false,
+                "m_CRCkey": 2077185307,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.4333334
             },
             {
-                "unknown1": "herbs_R",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "herbs_R",
+                "m_View": false,
+                "m_CRCkey": 2176870520,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.4333334
             },
@@ -9207,32 +8556,19 @@
                 "m_Time": 7.5
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    240,
-                    69,
-                    234,
-                    169
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": -1444264464,
                 "m_Command": 29,
                 "m_Time": 7.5
             },
             {
-                "unknown1": [
-                    1,
-                    0,
-                    0,
-                    0
-                ],
-                "unknown2": "anime",
+                "m_PlayAnimNo": 1,
+                "m_Anmname": "anime",
                 "m_Command": 30,
                 "m_Time": 7.5
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 7.6666665
             },
@@ -9255,7 +8591,7 @@
                 "m_Time": 7.6666665
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 7.6666665
             }
@@ -9267,17 +8603,20 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "obj_2",
+                "m_TargetName": "obj_2",
+                "m_CRCkey": 4242241252,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_3",
+                "m_TargetName": "obj_3",
+                "m_CRCkey": 2346468978,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
                 "m_TargetName": "obj_2",
+                "m_CRCKey": 4242241252,
                 "m_Pos": {
                     "x": 0.1,
                     "y": 0.7,
@@ -9289,6 +8628,7 @@
             },
             {
                 "m_TargetName": "obj_3",
+                "m_CRCKey": 2346468978,
                 "m_Pos": {
                     "x": 0.1,
                     "y": 0.7,
@@ -9299,7 +8639,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -9355,7 +8695,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -9386,26 +8726,18 @@
                 "m_Time": 0.33333334
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": true,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 0.6666667
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": true,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 0.6666667
             },
@@ -9428,26 +8760,18 @@
                 "m_Time": 1.8
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": false,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.5
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": false,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.5
             },
@@ -9481,21 +8805,13 @@
                 "m_Time": 9.5
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    56,
-                    162,
-                    111,
-                    112
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": 1886364216,
                 "m_Command": 29,
                 "m_Time": 9.5
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 9.8
             },
@@ -9518,7 +8834,7 @@
                 "m_Time": 9.8
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 9.8
             }
@@ -9530,35 +8846,24 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "obj_0",
+                "m_TargetName": "obj_0",
+                "m_CRCkey": 315955144,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    12,
-                    194
-                ],
+                "m_TargetName": "obj_0",
+                "m_Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Rot": -35.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -9598,26 +8903,18 @@
                 "m_Time": 1.4333333
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.4333333
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 2.4333334
             },
@@ -9643,21 +8940,13 @@
                 "m_Time": 6.4333334
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    44,
-                    190,
-                    178,
-                    139
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": -1951220180,
                 "m_Command": 29,
                 "m_Time": 6.4333334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 6.4333334
             }
@@ -9669,35 +8958,24 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "meet",
+                "m_TargetName": "meet",
+                "m_CRCkey": 3925267406,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "meet",
-                "unknown2": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    140,
-                    194
-                ],
+                "m_TargetName": "meet",
+                "m_Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Rot": -70.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -9766,7 +9044,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -9788,98 +9066,66 @@
                 "m_Time": 1.9333333
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.9333333
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.9333333
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": true,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.9333333
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": true,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.9333333
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.5
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.5
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": false,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.5666666
             },
             {
-                "unknown1": "obj_3",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_3",
+                "m_View": false,
+                "m_CRCkey": 2346468978,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.9333334
             },
@@ -9889,21 +9135,13 @@
                 "m_Time": 9.5
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    81,
-                    158,
-                    8,
-                    163
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": -1559716271,
                 "m_Command": 29,
                 "m_Time": 9.5
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 9.8
             },
@@ -9926,7 +9164,7 @@
                 "m_Time": 9.8
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 9.8
             }
@@ -9938,7 +9176,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -9961,7 +9199,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -10005,16 +9243,8 @@
                 "m_Time": 9.0
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    13,
-                    182,
-                    30,
-                    231
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": -417417715,
                 "m_Command": 29,
                 "m_Time": 9.0
             },
@@ -10037,12 +9267,12 @@
                 "m_Time": 9.333333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 9.333333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 9.333333
             }
@@ -10054,7 +9284,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -10089,7 +9319,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -10107,21 +9337,13 @@
                 "m_Time": 14.133333
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    17,
-                    250,
-                    143,
-                    218
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": -628098543,
                 "m_Command": 29,
                 "m_Time": 14.133333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 14.133333
             },
@@ -10144,7 +9366,7 @@
                 "m_Time": 14.133333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 14.133333
             }
@@ -10156,7 +9378,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -10213,7 +9435,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -10302,16 +9524,8 @@
                 "m_Time": 9.266666
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    17,
-                    250,
-                    143,
-                    218
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": -628098543,
                 "m_Command": 29,
                 "m_Time": 9.266666
             },
@@ -10328,7 +9542,7 @@
                 "m_Time": 9.266666
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 9.833333
             },
@@ -10339,7 +9553,7 @@
                 "m_Time": 9.833333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 9.833333
             }
@@ -10351,7 +9565,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -10361,7 +9575,8 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": "letters",
+                "m_TargetName": "letters",
+                "m_CRCkey": 4216661243,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -10392,7 +9607,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -10428,50 +9643,34 @@
                 "m_Time": 0.2
             },
             {
-                "unknown1": "tegami_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "tegami_1",
+                "m_View": true,
+                "m_CRCkey": 3349339278,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 0.2
             },
             {
-                "unknown1": "tegami_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "tegami_1",
+                "m_View": false,
+                "m_CRCkey": 3349339278,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.8
             },
             {
-                "unknown1": "tegami_ura",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "tegami_ura",
+                "m_View": true,
+                "m_CRCkey": 999526849,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.8
             },
             {
-                "unknown1": "tegami_ura",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "tegami_ura",
+                "m_View": false,
+                "m_CRCkey": 999526849,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 7.3333335
             },
@@ -10482,27 +9681,14 @@
                 "m_Time": 7.6666665
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    172,
-                    111,
-                    133,
-                    122
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": 2055565228,
                 "m_Command": 29,
                 "m_Time": 7.6666665
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unknown2": "anime",
+                "m_PlayAnimNo": 0,
+                "m_Anmname": "anime",
                 "m_Command": 30,
                 "m_Time": 7.6666665
             },
@@ -10519,7 +9705,7 @@
                 "m_Time": 7.6666665
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 7.6666665
             },
@@ -10530,7 +9716,7 @@
                 "m_Time": 7.6666665
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 7.6666665
             }
@@ -10542,7 +9728,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -10640,7 +9826,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -10658,18 +9844,13 @@
                 "m_Time": 7.0
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unknown2": "anime",
+                "m_PlayAnimNo": 0,
+                "m_Anmname": "anime",
                 "m_Command": 30,
                 "m_Time": 7.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 7.1666665
             },
@@ -10692,7 +9873,7 @@
                 "m_Time": 7.1666665
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 7.1666665
             }
@@ -10704,30 +9885,18 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "LOC_Hobby_1018",
-                "unknown2": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "LOC_Hobby_1018",
+                "m_Pos": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Rot": 0.0,
                 "m_Command": 28,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -10762,7 +9931,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -10822,18 +9991,13 @@
                 "m_Time": 6.5
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "unknown2": "anime",
+                "m_PlayAnimNo": 0,
+                "m_Anmname": "anime",
                 "m_Command": 30,
                 "m_Time": 6.5
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 6.5
             }
@@ -10845,7 +10009,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -10881,7 +10045,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -10949,12 +10113,12 @@
                 "m_Time": 10.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 10.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 10.0
             }
@@ -10966,12 +10130,13 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "otama",
+                "m_TargetName": "otama",
+                "m_CRCkey": 2599339385,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -11048,7 +10213,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -11076,14 +10241,10 @@
                 "m_Time": 0.8
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 0.8
             },
@@ -11096,26 +10257,18 @@
                 "m_Time": 2.0
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.3333335
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.3333335
             },
@@ -11134,26 +10287,18 @@
                 "m_Time": 6.366667
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": true,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.666667
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 9.666667
             },
@@ -11172,26 +10317,18 @@
                 "m_Time": 9.666667
             },
             {
-                "unknown1": "obj_0",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_0",
+                "m_View": false,
+                "m_CRCkey": 315955144,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 12.1
             },
             {
-                "unknown1": "base_3",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "base_3",
+                "m_View": true,
+                "m_CRCkey": 3855185723,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 12.1
             },
@@ -11220,12 +10357,12 @@
                 "m_Time": 12.4
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 12.4
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 12.4
             }
@@ -11237,12 +10374,13 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "obj_1",
+                "m_TargetName": "obj_1",
+                "m_CRCkey": 1708271454,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -11305,7 +10443,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -11361,7 +10499,8 @@
                 "m_Time": 4.266667
             },
             {
-                "unknown1": "obj_1",
+                "m_TargetName": "obj_1",
+                "m_CRCkey": 1708271454,
                 "m_Command": 27,
                 "m_Time": 4.3
             },
@@ -11375,14 +10514,10 @@
                 "m_Time": 4.9666667
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": true,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 4.9666667
             },
@@ -11399,14 +10534,10 @@
                 "m_Time": 5.366667
             },
             {
-                "unknown1": "obj_2",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_2",
+                "m_View": false,
+                "m_CRCkey": 4242241252,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 5.366667
             },
@@ -11440,12 +10571,12 @@
                 "m_Time": 5.7
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 5.7
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 5.7
             }
@@ -11457,12 +10588,13 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": "obj_2",
+                "m_TargetName": "obj_2",
+                "m_CRCkey": 4242241252,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -11511,7 +10643,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -11597,26 +10729,18 @@
                 "m_Time": 13.4
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    96,
-                    242,
-                    54,
-                    167
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": -1489571232,
                 "m_Command": 29,
                 "m_Time": 13.4
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 13.4
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 13.4
             }
@@ -11628,7 +10752,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -11671,7 +10795,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -11739,12 +10863,12 @@
                 "m_Time": 10.0
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 10.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 10.0
             }
@@ -11756,7 +10880,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -11799,7 +10923,7 @@
                 "m_Time": 7.7
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 7.7
             }
@@ -11811,7 +10935,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -11970,7 +11094,7 @@
                 "m_Time": 7.3333335
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 7.3333335
             }
@@ -11982,7 +11106,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -12011,7 +11135,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 0.0
             }
@@ -12023,12 +11147,13 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "water_gun",
+                "m_TargetName": "water_gun",
+                "m_CRCkey": 2335359060,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -12038,7 +11163,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -12092,14 +11217,10 @@
                 "m_Time": 1.6666666
             },
             {
-                "unknown1": "water_gun",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "water_gun",
+                "m_View": true,
+                "m_CRCkey": 2335359060,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.6666666
             },
@@ -12116,14 +11237,10 @@
                 "m_Time": 6.366667
             },
             {
-                "unknown1": "water_gun",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "water_gun",
+                "m_View": false,
+                "m_CRCkey": 2335359060,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 6.366667
             },
@@ -12151,12 +11268,12 @@
                 "m_Time": 6.866667
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 6.866667
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 6.866667
             }
@@ -12168,7 +11285,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -12197,7 +11314,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -12233,7 +11350,7 @@
                 "m_Time": 13.966666
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 13.966666
             },
@@ -12244,7 +11361,7 @@
                 "m_Time": 13.966666
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 13.966666
             }
@@ -12256,7 +11373,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -12314,7 +11431,7 @@
                 "m_Time": 8.233334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 8.233334
             }
@@ -12326,7 +11443,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -12357,7 +11474,7 @@
                 "m_Time": 12.266666
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 12.266666
             }
@@ -12369,7 +11486,7 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
@@ -12379,7 +11496,8 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_1",
+                "m_TargetName": "obj_1",
+                "m_CRCkey": 1708271454,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -12416,14 +11534,10 @@
                 "m_Time": 1.7
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": true,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": true,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 1.7
             },
@@ -12462,14 +11576,10 @@
                 "m_Time": 8.2
             },
             {
-                "unknown1": "obj_1",
-                "unknown2": false,
-                "unknown3": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
+                "m_TargetName": "obj_1",
+                "m_View": false,
+                "m_CRCkey": 1708271454,
+                "m_EntryTagID": 0,
                 "m_Command": 26,
                 "m_Time": 8.2
             },
@@ -12497,7 +11607,7 @@
                 "m_Time": 8.533334
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 8.533334
             },
@@ -12508,7 +11618,7 @@
                 "m_Time": 8.533334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 8.533334
             }
@@ -12520,12 +11630,13 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_0",
+                "m_TargetName": "obj_0",
+                "m_CRCkey": 315955144,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -12554,7 +11665,7 @@
                 "m_Time": 0.0
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 24,
                 "m_Time": 0.0
             },
@@ -12665,26 +11776,18 @@
                 "m_Time": 17.333334
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 17.333334
             },
             {
-                "unknown1": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    219,
-                    193,
-                    115,
-                    121
-                ],
+                "m_AnmType_or_m_PlayAnimNo_1": 0,
+                "m_AnmType_or_m_PlayAnimNo_2": 2037629403,
                 "m_Command": 29,
                 "m_Time": 17.333334
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 17.333334
             }
@@ -12696,12 +11799,13 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_0",
+                "m_TargetName": "obj_0",
+                "m_CRCkey": 315955144,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -12808,7 +11912,7 @@
                 "m_Time": 11.766666
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 11.766666
             }
@@ -12820,22 +11924,25 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_1",
+                "m_TargetName": "obj_1",
+                "m_CRCkey": 1708271454,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_2",
+                "m_TargetName": "obj_2",
+                "m_CRCkey": 4242241252,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_3",
+                "m_TargetName": "obj_3",
+                "m_CRCkey": 2346468978,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -12986,12 +12093,12 @@
                 "m_Time": 15.433333
             },
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 24,
                 "m_Time": 15.433333
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 15.433333
             }
@@ -13003,12 +12110,13 @@
         "m_LinkDir": 0,
         "m_Table": [
             {
-                "unknown1": false,
+                "m_active": false,
                 "m_Command": 25,
                 "m_Time": 0.0
             },
             {
-                "unknown1": "obj_0",
+                "m_TargetName": "obj_0",
+                "m_CRCkey": 315955144,
                 "m_Command": 27,
                 "m_Time": 0.0
             },
@@ -13075,7 +12183,7 @@
                 "m_Time": 10.9
             },
             {
-                "unknown1": true,
+                "m_active": true,
                 "m_Command": 25,
                 "m_Time": 10.9
             }
